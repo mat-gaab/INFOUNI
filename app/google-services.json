@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "836463231193",
+    "firebase_url": "https://infouni-10-default-rtdb.firebaseio.com",
+    "project_id": "infouni-10",
+    "storage_bucket": "infouni-10.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836463231193:android:012631e03f35c4b6b4fec8",
+        "android_client_info": {
+          "package_name": "com.exemplo.infouni"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbTJocgLYEzMJRD-FiOXLQWmOYfm61ieo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

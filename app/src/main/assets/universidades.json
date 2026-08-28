@@ -1,0 +1,16 @@
+[
+  {
+    "nome": "UFC - Universidade Federal do Ceará",
+    "cidade": "Fortaleza - CE",
+    "infraestrutura": "Laboratórios de ponta, biblioteca central e dormitórios universitários.",
+    "cursos": "Engenharia, Medicina, Computação, Design.",
+    "foto": "ufc_logo"
+  },
+  {
+    "nome": "USP - Universidade de São Paulo",
+    "cidade": "São Paulo - SP",
+    "infraestrutura": "Cidade Universitária com ampla área verde e centros de pesquisa avançados.",
+    "cursos": "Direito, Administração, Arquitetura, Astronomia.",
+    "foto": "usp_logo"
+  }
+]

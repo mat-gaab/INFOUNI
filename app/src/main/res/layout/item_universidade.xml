@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/branco">
+
+        <TextView
+            android:id="@+id/txtNomeUni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome da Faculdade"
+            android:textColor="@color/ciano_primario"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCidadeUni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cidade - UF"
+            android:textColor="#757575"
+            android:layout_marginTop="4dp" />
+
+        <Button
+            android:id="@+id/btnVerDetalhes"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="VER DETALHES"
+            android:textSize="12sp"
+            android:backgroundTint="@color/ciano_primario"
+            android:textColor="@color/branco"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="end"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

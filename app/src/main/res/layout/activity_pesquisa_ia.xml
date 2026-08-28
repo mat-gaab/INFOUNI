@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/branco"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_pesquisa_ia"
+        android:textColor="@color/ciano_primario"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/editBuscaIA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_busca_ia"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        android:backgroundTint="@color/ciano_primario"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botao de Pesquisa -->
+    <Button
+        android:id="@+id/btnPesquisarIA"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="@string/btn_buscar_web"
+        android:backgroundTint="@color/ciano_primario"
+        android:textColor="@color/branco"
+        android:textStyle="bold" />
+
+    <!-- Área de Carregamento -->
+    <ProgressBar
+        android:id="@+id/progressIA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:indeterminateTint="@color/ciano_primario"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Resultado -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:background="@color/cinza_fundo"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/txtResultadoIA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/resultado_ia_placeholder"
+            android:textColor="#424242"
+            android:textSize="16sp" />
+    </ScrollView>
+
+</LinearLayout>

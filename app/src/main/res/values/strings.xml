@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">INFOUNI</string>
+    <string name="title_pesquisa_ia">Consultar IA Gemini</string>
+    <string name="hint_busca_ia">Qual universidade deseja pesquisar?</string>
+    <string name="btn_buscar_web">BUSCAR NA WEB</string>
+    <string name="resultado_ia_placeholder">As informações da IA aparecerão aqui...</string>
+    <string name="hint_pesquisa_local">Pesquisar faculdade ou curso...</string>
+    <string name="btn_buscar">BUSCAR</string>
+    <string name="btn_pesquisa_web">PESQUISA WEB (IA)</string>
+    <string name="btn_sair">SAIR</string>
+    <string name="btn_entrar">ENTRAR</string>
+    <string name="btn_cadastrar">CADASTRAR ALUNO</string>
+    <string name="txt_ir_para_cadastro">Não tem conta? Cadastre-se aqui</string>
+    <string name="title_cadastro">Crie sua conta no INFOUNI</string>
+    <string name="hint_nome">Nome Completo</string>
+    <string name="hint_data_nasc">Data de Nascimento (DD/MM/AAAA)</string>
+    <string name="hint_email">Seu melhor e-mail</string>
+    <string name="hint_senha">Crie sua senha</string>
+    <string name="label_genero">Gênero:</string>
+    <string name="hint_email_login">E-mail</string>
+    <string name="hint_senha_login">Senha</string>
+
+    <string-array name="generos">
+        <item>Selecione o Gênero</item>
+        <item>Masculino</item>
+        <item>Feminino</item>
+        <item>Outro</item>
+        <item>Prefiro não dizer</item>
+    </string-array>
+</resources>
