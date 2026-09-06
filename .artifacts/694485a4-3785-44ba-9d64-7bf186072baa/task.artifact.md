@@ -1,7 +1,0 @@
-- [x] Criar recursos de string no `strings.xml`
-- [x] Atualizar `activity_pesquisa_ia.xml` para usar `@string`
-- [x] Atualizar `activity_main.xml` para usar `@string`
-- [x] Atualizar `activity_login.xml` para usar `@string`
-- [x] Atualizar `activity_cadastro.xml` para usar `@string`
-- [x] Limpar imports em `PesquisaIAActivity.kt`
-- [x] Executar build limpa para sincronizar recursos
