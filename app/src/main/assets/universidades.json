@@ -1,16 +1,1346 @@
 [
   {
     "nome": "UFC - Universidade Federal do Ceará",
-    "cidade": "Fortaleza - CE",
-    "infraestrutura": "Laboratórios de ponta, biblioteca central e dormitórios universitários.",
-    "cursos": "Engenharia, Medicina, Computação, Design.",
-    "foto": "ufc_logo"
+    "cidade": "Fortaleza/CE",
+    "infraestrutura": "Laboratórios de pesquisa avançada, RU e bibliotecas amplas.",
+    "cursos": "Medicina, Direito, Engenharia, Computação, Psicologia",
+    "foto": "https://www.google.com/s2/favicons?domain=ufc.br&sz=128"
+  },
+  {
+    "nome": "UFRJ - Universidade Federal do Rio de Janeiro",
+    "cidade": "Rio de Janeiro/RJ",
+    "infraestrutura": "Maior universidade federal do país, hospital universitário e centros de pesquisa de ponta.",
+    "cursos": "Medicina, Engenharia, Direito, Economia, Oceanografia",
+    "foto": "https://www.google.com/s2/favicons?domain=ufrj.br&sz=128"
+  },
+  {
+    "nome": "UFMG - Universidade Federal de Minas Gerais",
+    "cidade": "Belo Horizonte/MG",
+    "infraestrutura": "Campus Pampulha extenso, forte tradição em pesquisa científica.",
+    "cursos": "Medicina, Engenharia, Ciências Biológicas, Direito",
+    "foto": "https://www.google.com/s2/favicons?domain=ufmg.br&sz=128"
+  },
+  {
+    "nome": "UFRGS - Universidade Federal do Rio Grande do Sul",
+    "cidade": "Porto Alegre/RS",
+    "infraestrutura": "Uma das melhores estruturas de pós-graduação do Brasil.",
+    "cursos": "Agronomia, Medicina, Engenharia, Administração",
+    "foto": "https://www.google.com/s2/favicons?domain=ufrgs.br&sz=128"
+  },
+  {
+    "nome": "UFSC - Universidade Federal de Santa Catarina",
+    "cidade": "Florianópolis/SC",
+    "infraestrutura": "Parque tecnológico integrado e forte área de inovação.",
+    "cursos": "Engenharias, Oceanografia, Design, Computação",
+    "foto": "https://www.google.com/s2/favicons?domain=ufsc.br&sz=128"
+  },
+  {
+    "nome": "UFPE - Universidade Federal de Pernambuco",
+    "cidade": "Recife/PE",
+    "infraestrutura": "Referência em tecnologia da informação no Nordeste.",
+    "cursos": "Ciência da Computação, Medicina, Direito, Odontologia",
+    "foto": "https://www.google.com/s2/favicons?domain=ufpe.br&sz=128"
+  },
+  {
+    "nome": "UFBA - Universidade Federal da Bahia",
+    "cidade": "Salvador/BA",
+    "infraestrutura": "Primeira universidade federal do Brasil, forte tradição acadêmica.",
+    "cursos": "Medicina, Direito, Artes, Arquitetura",
+    "foto": "https://www.google.com/s2/favicons?domain=ufba.br&sz=128"
+  },
+  {
+    "nome": "UFPR - Universidade Federal do Paraná",
+    "cidade": "Curitiba/PR",
+    "infraestrutura": "Mais antiga universidade do Brasil, campi modernos.",
+    "cursos": "Direito, Medicina, Engenharia Florestal, Geologia",
+    "foto": "https://www.google.com/s2/favicons?domain=ufpr.br&sz=128"
+  },
+  {
+    "nome": "UFPB - Universidade Federal da Paraíba",
+    "cidade": "João Pessoa/PB",
+    "infraestrutura": "Forte atuação em pesquisa e extensão no Nordeste.",
+    "cursos": "Odontologia, Direito, Engenharia de Produção",
+    "foto": "https://www.google.com/s2/favicons?domain=ufpb.br&sz=128"
+  },
+  {
+    "nome": "UFRN - Universidade Federal do Rio Grande do Norte",
+    "cidade": "Natal/RN",
+    "infraestrutura": "Referência em neurociências e pesquisa aplicada.",
+    "cursos": "Medicina, Neurociências, Engenharia, Petróleo e Gás",
+    "foto": "https://www.google.com/s2/favicons?domain=ufrn.br&sz=128"
+  },
+  {
+    "nome": "UFES - Universidade Federal do Espírito Santo",
+    "cidade": "Vitória/ES",
+    "infraestrutura": "Campus à beira-mar, forte em oceanografia.",
+    "cursos": "Oceanografia, Direito, Engenharia, Medicina",
+    "foto": "https://www.google.com/s2/favicons?domain=ufes.br&sz=128"
+  },
+  {
+    "nome": "UFG - Universidade Federal de Goiás",
+    "cidade": "Goiânia/GO",
+    "infraestrutura": "Principal universidade pública do Centro-Oeste.",
+    "cursos": "Agronomia, Medicina Veterinária, Direito, Farmácia",
+    "foto": "https://www.google.com/s2/favicons?domain=ufg.br&sz=128"
+  },
+  {
+    "nome": "UFMS - Universidade Federal de Mato Grosso do Sul",
+    "cidade": "Campo Grande/MS",
+    "infraestrutura": "Forte atuação em ciências agrárias e ambientais.",
+    "cursos": "Agronomia, Biologia, Medicina, Zootecnia",
+    "foto": "https://www.google.com/s2/favicons?domain=ufms.br&sz=128"
+  },
+  {
+    "nome": "UFMT - Universidade Federal de Mato Grosso",
+    "cidade": "Cuiabá/MT",
+    "infraestrutura": "Pesquisa voltada ao bioma Pantanal e Amazônia.",
+    "cursos": "Engenharia Florestal, Medicina, Agronomia",
+    "foto": "https://www.google.com/s2/favicons?domain=ufmt.br&sz=128"
+  },
+  {
+    "nome": "UFAL - Universidade Federal de Alagoas",
+    "cidade": "Maceió/AL",
+    "infraestrutura": "Campus à beira-mar com forte extensão universitária.",
+    "cursos": "Direito, Medicina, Engenharia Civil",
+    "foto": "https://www.google.com/s2/favicons?domain=ufal.br&sz=128"
+  },
+  {
+    "nome": "UFS - Universidade Federal de Sergipe",
+    "cidade": "São Cristóvão/SE",
+    "infraestrutura": "Principal instituição pública do estado.",
+    "cursos": "Medicina, Direito, Engenharia de Petróleo",
+    "foto": "https://www.google.com/s2/favicons?domain=ufs.br&sz=128"
+  },
+  {
+    "nome": "UFPA - Universidade Federal do Pará",
+    "cidade": "Belém/PA",
+    "infraestrutura": "Referência em pesquisa amazônica e biodiversidade.",
+    "cursos": "Engenharia Florestal, Medicina, Biotecnologia",
+    "foto": "https://www.google.com/s2/favicons?domain=ufpa.br&sz=128"
+  },
+  {
+    "nome": "UFAM - Universidade Federal do Amazonas",
+    "cidade": "Manaus/AM",
+    "infraestrutura": "Forte atuação em pesquisa sobre a floresta amazônica.",
+    "cursos": "Engenharia Química, Biologia, Medicina",
+    "foto": "https://www.google.com/s2/favicons?domain=ufam.edu.br&sz=128"
+  },
+  {
+    "nome": "UFRR - Universidade Federal de Roraima",
+    "cidade": "Boa Vista/RR",
+    "infraestrutura": "Forte atuação em estudos indígenas e fronteiriços.",
+    "cursos": "Agronomia, Direito, Enfermagem",
+    "foto": "https://www.google.com/s2/favicons?domain=ufrr.br&sz=128"
+  },
+  {
+    "nome": "UFAC - Universidade Federal do Acre",
+    "cidade": "Rio Branco/AC",
+    "infraestrutura": "Foco em pesquisa florestal e sustentabilidade amazônica.",
+    "cursos": "Engenharia Florestal, Direito, Medicina",
+    "foto": "https://www.google.com/s2/favicons?domain=ufac.br&sz=128"
+  },
+  {
+    "nome": "UNIR - Universidade Federal de Rondônia",
+    "cidade": "Porto Velho/RO",
+    "infraestrutura": "Múltiplos campi na região amazônica.",
+    "cursos": "Direito, Engenharia Ambiental, Pedagogia",
+    "foto": "https://www.google.com/s2/favicons?domain=unir.br&sz=128"
+  },
+  {
+    "nome": "UFT - Universidade Federal do Tocantins",
+    "cidade": "Palmas/TO",
+    "infraestrutura": "Rede de campi voltada ao desenvolvimento regional.",
+    "cursos": "Agronomia, Direito, Engenharia Ambiental",
+    "foto": "https://www.google.com/s2/favicons?domain=uft.edu.br&sz=128"
+  },
+  {
+    "nome": "UFCG - Universidade Federal de Campina Grande",
+    "cidade": "Campina Grande/PB",
+    "infraestrutura": "Polo tecnológico reconhecido nacionalmente.",
+    "cursos": "Engenharia Elétrica, Computação, Engenharia Civil",
+    "foto": "https://www.google.com/s2/favicons?domain=ufcg.edu.br&sz=128"
+  },
+  {
+    "nome": "UFCA - Universidade Federal do Cariri",
+    "cidade": "Juazeiro do Norte/CE",
+    "infraestrutura": "Universidade jovem com forte vínculo regional.",
+    "cursos": "Medicina, Engenharia Civil, Administração",
+    "foto": "https://www.google.com/s2/favicons?domain=ufca.edu.br&sz=128"
+  },
+  {
+    "nome": "UFERSA - Universidade Federal Rural do Semi-Árido",
+    "cidade": "Mossoró/RN",
+    "infraestrutura": "Foco em agronomia adaptada ao semiárido.",
+    "cursos": "Agronomia, Zootecnia, Engenharia de Produção",
+    "foto": "https://www.google.com/s2/favicons?domain=ufersa.edu.br&sz=128"
+  },
+  {
+    "nome": "UFOPA - Universidade Federal do Oeste do Pará",
+    "cidade": "Santarém/PA",
+    "infraestrutura": "Pesquisa voltada à sustentabilidade amazônica.",
+    "cursos": "Engenharia Florestal, Medicina, Biotecnologia",
+    "foto": "https://www.google.com/s2/favicons?domain=ufopa.edu.br&sz=128"
+  },
+  {
+    "nome": "UFVJM - Universidade Federal dos Vales do Jequitinhonha e Mucuri",
+    "cidade": "Diamantina/MG",
+    "infraestrutura": "Atuação regional em Minas Gerais.",
+    "cursos": "Medicina, Nutrição, Engenharia Florestal",
+    "foto": "https://www.google.com/s2/favicons?domain=ufvjm.edu.br&sz=128"
+  },
+  {
+    "nome": "UFTM - Universidade Federal do Triângulo Mineiro",
+    "cidade": "Uberaba/MG",
+    "infraestrutura": "Forte tradição na área da saúde.",
+    "cursos": "Medicina, Enfermagem, Biomedicina",
+    "foto": "https://www.google.com/s2/favicons?domain=uftm.edu.br&sz=128"
+  },
+  {
+    "nome": "UFU - Universidade Federal de Uberlândia",
+    "cidade": "Uberlândia/MG",
+    "infraestrutura": "Campus amplo com forte pesquisa aplicada.",
+    "cursos": "Engenharia, Medicina Veterinária, Administração",
+    "foto": "https://www.google.com/s2/favicons?domain=ufu.br&sz=128"
+  },
+  {
+    "nome": "UFV - Universidade Federal de Viçosa",
+    "cidade": "Viçosa/MG",
+    "infraestrutura": "Referência nacional em agronomia e ciências agrárias.",
+    "cursos": "Agronomia, Engenharia Florestal, Zootecnia",
+    "foto": "https://www.google.com/s2/favicons?domain=ufv.br&sz=128"
+  },
+  {
+    "nome": "UFLA - Universidade Federal de Lavras",
+    "cidade": "Lavras/MG",
+    "infraestrutura": "Tradição centenária em ciências agrárias.",
+    "cursos": "Agronomia, Ciência da Computação, Engenharia Florestal",
+    "foto": "https://www.google.com/s2/favicons?domain=ufla.br&sz=128"
+  },
+  {
+    "nome": "UFSJ - Universidade Federal de São João del-Rei",
+    "cidade": "São João del-Rei/MG",
+    "infraestrutura": "Campi distribuídos em cidades históricas mineiras.",
+    "cursos": "Engenharia Mecânica, Direito, Psicologia",
+    "foto": "https://www.google.com/s2/favicons?domain=ufsj.edu.br&sz=128"
+  },
+  {
+    "nome": "UFOP - Universidade Federal de Ouro Preto",
+    "cidade": "Ouro Preto/MG",
+    "infraestrutura": "Tradição centenária em engenharia de minas.",
+    "cursos": "Engenharia de Minas, Farmácia, Geologia",
+    "foto": "https://www.google.com/s2/favicons?domain=ufop.br&sz=128"
+  },
+  {
+    "nome": "UFF - Universidade Federal Fluminense",
+    "cidade": "Niterói/RJ",
+    "infraestrutura": "Múltiplos campi no estado do Rio de Janeiro.",
+    "cursos": "Medicina, Direito, Comunicação Social",
+    "foto": "https://www.google.com/s2/favicons?domain=uff.br&sz=128"
+  },
+  {
+    "nome": "UFRRJ - Universidade Federal Rural do Rio de Janeiro",
+    "cidade": "Seropédica/RJ",
+    "infraestrutura": "Campus extenso com forte área agrária.",
+    "cursos": "Agronomia, Medicina Veterinária, Zootecnia",
+    "foto": "https://www.google.com/s2/favicons?domain=ufrrj.br&sz=128"
+  },
+  {
+    "nome": "UFABC - Universidade Federal do ABC",
+    "cidade": "Santo André/SP",
+    "infraestrutura": "Modelo interdisciplinar com forte foco em ciência e tecnologia.",
+    "cursos": "Engenharia, Ciência da Computação, Ciências Biológicas",
+    "foto": "https://www.google.com/s2/favicons?domain=ufabc.edu.br&sz=128"
+  },
+  {
+    "nome": "UNIFESP - Universidade Federal de São Paulo",
+    "cidade": "São Paulo/SP",
+    "infraestrutura": "Referência nacional na área da saúde.",
+    "cursos": "Medicina, Enfermagem, Ciências Biomédicas",
+    "foto": "https://www.google.com/s2/favicons?domain=unifesp.br&sz=128"
+  },
+  {
+    "nome": "UNIFAP - Universidade Federal do Amapá",
+    "cidade": "Macapá/AP",
+    "infraestrutura": "Principal universidade pública do estado.",
+    "cursos": "Direito, Engenharia Elétrica, Pedagogia",
+    "foto": "https://www.google.com/s2/favicons?domain=unifap.br&sz=128"
+  },
+  {
+    "nome": "UNIFESSPA - Universidade Federal do Sul e Sudeste do Pará",
+    "cidade": "Marabá/PA",
+    "infraestrutura": "Atuação em região de fronteira agrícola amazônica.",
+    "cursos": "Agronomia, Direito, Medicina",
+    "foto": "https://www.google.com/s2/favicons?domain=unifesspa.edu.br&sz=128"
+  },
+  {
+    "nome": "UNIFAL - Universidade Federal de Alfenas",
+    "cidade": "Alfenas/MG",
+    "infraestrutura": "Forte tradição em ciências farmacêuticas.",
+    "cursos": "Farmácia, Medicina, Odontologia",
+    "foto": "https://www.google.com/s2/favicons?domain=unifal-mg.edu.br&sz=128"
+  },
+  {
+    "nome": "UNILA - Universidade Federal da Integração Latino-Americana",
+    "cidade": "Foz do Iguaçu/PR",
+    "infraestrutura": "Projeto binacional voltado à integração latino-americana.",
+    "cursos": "Relações Internacionais, Engenharia, Saúde Coletiva",
+    "foto": "https://www.google.com/s2/favicons?domain=unila.edu.br&sz=128"
+  },
+  {
+    "nome": "UNIFEI - Universidade Federal de Itajubá",
+    "cidade": "Itajubá/MG",
+    "infraestrutura": "Referência histórica em engenharia no Brasil.",
+    "cursos": "Engenharia Elétrica, Engenharia Mecânica, Física",
+    "foto": "https://www.google.com/s2/favicons?domain=unifei.edu.br&sz=128"
+  },
+  {
+    "nome": "UTFPR - Universidade Tecnológica Federal do Paraná",
+    "cidade": "Curitiba/PR",
+    "infraestrutura": "Rede de campi com forte foco tecnológico.",
+    "cursos": "Engenharias, Ciência da Computação, Design",
+    "foto": "https://www.google.com/s2/favicons?domain=utfpr.edu.br&sz=128"
+  },
+  {
+    "nome": "UFMA - Universidade Federal do Maranhão",
+    "cidade": "São Luís/MA",
+    "infraestrutura": "Principal universidade pública do estado.",
+    "cursos": "Medicina, Direito, Engenharia Civil",
+    "foto": "https://www.google.com/s2/favicons?domain=ufma.br&sz=128"
+  },
+  {
+    "nome": "UFPI - Universidade Federal do Piauí",
+    "cidade": "Teresina/PI",
+    "infraestrutura": "Múltiplos campi distribuídos pelo estado.",
+    "cursos": "Medicina, Agronomia, Direito",
+    "foto": "https://www.google.com/s2/favicons?domain=ufpi.br&sz=128"
+  },
+  {
+    "nome": "UFRB - Universidade Federal do Recôncavo da Bahia",
+    "cidade": "Cruz das Almas/BA",
+    "infraestrutura": "Forte vínculo com a agricultura regional.",
+    "cursos": "Agronomia, Medicina Veterinária, Engenharia Sanitária",
+    "foto": "https://www.google.com/s2/favicons?domain=ufrb.edu.br&sz=128"
+  },
+  {
+    "nome": "UFSCar - Universidade Federal de São Carlos",
+    "cidade": "São Carlos/SP",
+    "infraestrutura": "Alta produção científica em engenharia e materiais.",
+    "cursos": "Engenharia de Materiais, Computação, Ciências Biológicas",
+    "foto": "https://www.google.com/s2/favicons?domain=ufscar.br&sz=128"
+  },
+  {
+    "nome": "UFSB - Universidade Federal do Sul da Bahia",
+    "cidade": "Itabuna/BA",
+    "infraestrutura": "Modelo pedagógico interdisciplinar por ciclos.",
+    "cursos": "Saúde, Cultura, Ciência e Tecnologia",
+    "foto": "https://www.google.com/s2/favicons?domain=ufsb.edu.br&sz=128"
+  },
+  {
+    "nome": "UFCSPA - Universidade Federal de Ciências da Saúde de Porto Alegre",
+    "cidade": "Porto Alegre/RS",
+    "infraestrutura": "Instituição especializada em ciências da saúde.",
+    "cursos": "Medicina, Enfermagem, Nutrição",
+    "foto": "https://www.google.com/s2/favicons?domain=ufcspa.edu.br&sz=128"
+  },
+  {
+    "nome": "UFGD - Universidade Federal da Grande Dourados",
+    "cidade": "Dourados/MS",
+    "infraestrutura": "Forte atuação em agronegócio regional.",
+    "cursos": "Agronomia, Direito, Medicina",
+    "foto": "https://www.google.com/s2/favicons?domain=ufgd.edu.br&sz=128"
+  },
+  {
+    "nome": "UFPel - Universidade Federal de Pelotas",
+    "cidade": "Pelotas/RS",
+    "infraestrutura": "Tradição centenária em agronomia e medicina.",
+    "cursos": "Agronomia, Medicina, Nutrição",
+    "foto": "https://www.google.com/s2/favicons?domain=ufpel.edu.br&sz=128"
+  },
+  {
+    "nome": "UFSM - Universidade Federal de Santa Maria",
+    "cidade": "Santa Maria/RS",
+    "infraestrutura": "Uma das primeiras universidades federais fora de capital.",
+    "cursos": "Medicina, Agronomia, Engenharia",
+    "foto": "https://www.google.com/s2/favicons?domain=ufsm.br&sz=128"
+  },
+  {
+    "nome": "FURG - Universidade Federal do Rio Grande",
+    "cidade": "Rio Grande/RS",
+    "infraestrutura": "Referência nacional em oceanografia.",
+    "cursos": "Oceanologia, Engenharia de Aquicultura, Direito",
+    "foto": "https://www.google.com/s2/favicons?domain=furg.br&sz=128"
+  },
+  {
+    "nome": "UNIPAMPA - Universidade Federal do Pampa",
+    "cidade": "Bagé/RS",
+    "infraestrutura": "Rede de campi na fronteira sul do Brasil.",
+    "cursos": "Agronomia, Engenharia, Enfermagem",
+    "foto": "https://www.google.com/s2/favicons?domain=unipampa.edu.br&sz=128"
+  },
+  {
+    "nome": "UFDPar - Universidade Federal do Delta do Parnaíba",
+    "cidade": "Parnaíba/PI",
+    "infraestrutura": "Universidade jovem voltada à região litorânea.",
+    "cursos": "Ciências Biológicas, Administração, Sistemas de Informação",
+    "foto": "https://www.google.com/s2/favicons?domain=ufdpar.edu.br&sz=128"
+  },
+  {
+    "nome": "IFCE - Instituto Federal do Ceará",
+    "cidade": "Vários Campi/CE",
+    "infraestrutura": "Foco em ensino técnico e tecnológico, laboratórios de informática modernos.",
+    "cursos": "Engenharia de Mecatrônica, Gestão Ambiental, Telemática",
+    "foto": "https://www.google.com/s2/favicons?domain=ifce.edu.br&sz=128"
+  },
+  {
+    "nome": "IFRN - Instituto Federal do Rio Grande do Norte",
+    "cidade": "Vários Campi/RN",
+    "infraestrutura": "Referência nacional em educação profissional.",
+    "cursos": "Automação Industrial, Edificações, Informática",
+    "foto": "https://www.google.com/s2/favicons?domain=ifrn.edu.br&sz=128"
+  },
+  {
+    "nome": "IFBA - Instituto Federal da Bahia",
+    "cidade": "Vários Campi/BA",
+    "infraestrutura": "Forte atuação em cursos técnicos integrados.",
+    "cursos": "Eletrotécnica, Química, Mecânica",
+    "foto": "https://www.google.com/s2/favicons?domain=ifba.edu.br&sz=128"
+  },
+  {
+    "nome": "IFPE - Instituto Federal de Pernambuco",
+    "cidade": "Vários Campi/PE",
+    "infraestrutura": "Rede de campi com laboratórios técnicos modernos.",
+    "cursos": "Eletrônica, Refrigeração, Sistemas de Informação",
+    "foto": "https://www.google.com/s2/favicons?domain=ifpe.edu.br&sz=128"
+  },
+  {
+    "nome": "IFRJ - Instituto Federal do Rio de Janeiro",
+    "cidade": "Vários Campi/RJ",
+    "infraestrutura": "Forte atuação em cursos técnicos e superiores.",
+    "cursos": "Química, Controle Ambiental, Gestão",
+    "foto": "https://www.google.com/s2/favicons?domain=ifrj.edu.br&sz=128"
+  },
+  {
+    "nome": "IFSP - Instituto Federal de São Paulo",
+    "cidade": "Vários Campi/SP",
+    "infraestrutura": "Ampla rede de campi pelo estado.",
+    "cursos": "Mecânica, Automação, Ciência da Computação",
+    "foto": "https://www.google.com/s2/favicons?domain=ifsp.edu.br&sz=128"
+  },
+  {
+    "nome": "IFMG - Instituto Federal de Minas Gerais",
+    "cidade": "Vários Campi/MG",
+    "infraestrutura": "Forte atuação em cursos técnicos industriais.",
+    "cursos": "Mineração, Alimentos, Eletromecânica",
+    "foto": "https://www.google.com/s2/favicons?domain=ifmg.edu.br&sz=128"
+  },
+  {
+    "nome": "IFES - Instituto Federal do Espírito Santo",
+    "cidade": "Vários Campi/ES",
+    "infraestrutura": "Referência técnica no estado.",
+    "cursos": "Petróleo e Gás, Mecânica, Informática",
+    "foto": "https://www.google.com/s2/favicons?domain=ifes.edu.br&sz=128"
+  },
+  {
+    "nome": "IFPB - Instituto Federal da Paraíba",
+    "cidade": "Vários Campi/PB",
+    "infraestrutura": "Rede consolidada de ensino técnico.",
+    "cursos": "Edificações, Alimentos, Redes de Computadores",
+    "foto": "https://www.google.com/s2/favicons?domain=ifpb.edu.br&sz=128"
+  },
+  {
+    "nome": "IFAL - Instituto Federal de Alagoas",
+    "cidade": "Vários Campi/AL",
+    "infraestrutura": "Foco em desenvolvimento regional.",
+    "cursos": "Química, Turismo, Informática",
+    "foto": "https://www.google.com/s2/favicons?domain=ifal.edu.br&sz=128"
+  },
+  {
+    "nome": "IFPI - Instituto Federal do Piauí",
+    "cidade": "Vários Campi/PI",
+    "infraestrutura": "Rede de campi voltada à formação técnica.",
+    "cursos": "Agropecuária, Informática, Edificações",
+    "foto": "https://www.google.com/s2/favicons?domain=ifpi.edu.br&sz=128"
+  },
+  {
+    "nome": "IFMA - Instituto Federal do Maranhão",
+    "cidade": "Vários Campi/MA",
+    "infraestrutura": "Forte presença em cidades do interior.",
+    "cursos": "Eletrotécnica, Agropecuária, Informática",
+    "foto": "https://www.google.com/s2/favicons?domain=ifma.edu.br&sz=128"
+  },
+  {
+    "nome": "IFPA - Instituto Federal do Pará",
+    "cidade": "Vários Campi/PA",
+    "infraestrutura": "Rede de campi na região amazônica.",
+    "cursos": "Meio Ambiente, Mecânica, Pesca",
+    "foto": "https://www.google.com/s2/favicons?domain=ifpa.edu.br&sz=128"
+  },
+  {
+    "nome": "IFAM - Instituto Federal do Amazonas",
+    "cidade": "Vários Campi/AM",
+    "infraestrutura": "Foco em tecnologia aplicada à Amazônia.",
+    "cursos": "Informática, Meio Ambiente, Recursos Pesqueiros",
+    "foto": "https://www.google.com/s2/favicons?domain=ifam.edu.br&sz=128"
+  },
+  {
+    "nome": "IFTO - Instituto Federal do Tocantins",
+    "cidade": "Vários Campi/TO",
+    "infraestrutura": "Rede voltada ao desenvolvimento regional.",
+    "cursos": "Agropecuária, Informática, Meio Ambiente",
+    "foto": "https://www.google.com/s2/favicons?domain=ifto.edu.br&sz=128"
+  },
+  {
+    "nome": "IFMT - Instituto Federal de Mato Grosso",
+    "cidade": "Vários Campi/MT",
+    "infraestrutura": "Forte atuação técnica no agronegócio.",
+    "cursos": "Agropecuária, Mineração, Informática",
+    "foto": "https://www.google.com/s2/favicons?domain=ifmt.edu.br&sz=128"
+  },
+  {
+    "nome": "IFMS - Instituto Federal de Mato Grosso do Sul",
+    "cidade": "Vários Campi/MS",
+    "infraestrutura": "Rede recente com forte foco tecnológico.",
+    "cursos": "Informática, Agropecuária, Meio Ambiente",
+    "foto": "https://www.google.com/s2/favicons?domain=ifms.edu.br&sz=128"
+  },
+  {
+    "nome": "IF Goiano - Instituto Federal Goiano",
+    "cidade": "Vários Campi/GO",
+    "infraestrutura": "Foco em ciências agrárias e ambientais.",
+    "cursos": "Agronomia, Zootecnia, Informática",
+    "foto": "https://www.google.com/s2/favicons?domain=ifgoiano.edu.br&sz=128"
+  },
+  {
+    "nome": "IFG - Instituto Federal de Goiás",
+    "cidade": "Vários Campi/GO",
+    "infraestrutura": "Forte tradição técnica no estado.",
+    "cursos": "Eletrotécnica, Química, Edificações",
+    "foto": "https://www.google.com/s2/favicons?domain=ifg.edu.br&sz=128"
+  },
+  {
+    "nome": "IF Catarinense - Instituto Federal Catarinense",
+    "cidade": "Vários Campi/SC",
+    "infraestrutura": "Rede voltada ao agronegócio e tecnologia.",
+    "cursos": "Agronomia, Informática, Alimentos",
+    "foto": "https://www.google.com/s2/favicons?domain=ifc.edu.br&sz=128"
+  },
+  {
+    "nome": "IFSC - Instituto Federal de Santa Catarina",
+    "cidade": "Vários Campi/SC",
+    "infraestrutura": "Referência nacional em cursos técnicos.",
+    "cursos": "Automação, Telecomunicações, Design",
+    "foto": "https://www.google.com/s2/favicons?domain=ifsc.edu.br&sz=128"
+  },
+  {
+    "nome": "IFRS - Instituto Federal do Rio Grande do Sul",
+    "cidade": "Vários Campi/RS",
+    "infraestrutura": "Forte presença tecnológica no estado.",
+    "cursos": "Informática, Agropecuária, Vestuário",
+    "foto": "https://www.google.com/s2/favicons?domain=ifrs.edu.br&sz=128"
+  },
+  {
+    "nome": "IFFarroupilha - Instituto Federal Farroupilha",
+    "cidade": "Vários Campi/RS",
+    "infraestrutura": "Rede voltada à formação técnica rural.",
+    "cursos": "Agropecuária, Informática, Alimentos",
+    "foto": "https://www.google.com/s2/favicons?domain=iffarroupilha.edu.br&sz=128"
+  },
+  {
+    "nome": "IFSul - Instituto Federal Sul-rio-grandense",
+    "cidade": "Vários Campi/RS",
+    "infraestrutura": "Tradição centenária em ensino técnico.",
+    "cursos": "Mecânica, Eletrônica, Design de Moda",
+    "foto": "https://www.google.com/s2/favicons?domain=ifsul.edu.br&sz=128"
+  },
+  {
+    "nome": "IF Sul de Minas - Instituto Federal do Sul de Minas Gerais",
+    "cidade": "Vários Campi/MG",
+    "infraestrutura": "Foco regional em agronegócio e tecnologia.",
+    "cursos": "Agronomia, Informática, Alimentos",
+    "foto": "https://www.google.com/s2/favicons?domain=ifsuldeminas.edu.br&sz=128"
+  },
+  {
+    "nome": "IFTM - Instituto Federal do Triângulo Mineiro",
+    "cidade": "Vários Campi/MG",
+    "infraestrutura": "Rede técnica regional consolidada.",
+    "cursos": "Agropecuária, Informática, Química",
+    "foto": "https://www.google.com/s2/favicons?domain=iftm.edu.br&sz=128"
+  },
+  {
+    "nome": "IFNMG - Instituto Federal do Norte de Minas Gerais",
+    "cidade": "Vários Campi/MG",
+    "infraestrutura": "Atuação técnica no semiárido mineiro.",
+    "cursos": "Agropecuária, Informática, Edificações",
+    "foto": "https://www.google.com/s2/favicons?domain=ifnmg.edu.br&sz=128"
+  },
+  {
+    "nome": "IF Sertão-PE - Instituto Federal do Sertão Pernambucano",
+    "cidade": "Vários Campi/PE",
+    "infraestrutura": "Foco em agricultura irrigada e tecnologia.",
+    "cursos": "Agronomia, Zootecnia, Informática",
+    "foto": "https://www.google.com/s2/favicons?domain=ifsertao-pe.edu.br&sz=128"
+  },
+  {
+    "nome": "IF Baiano - Instituto Federal Baiano",
+    "cidade": "Vários Campi/BA",
+    "infraestrutura": "Rede voltada ao agronegócio regional.",
+    "cursos": "Agropecuária, Meio Ambiente, Informática",
+    "foto": "https://www.google.com/s2/favicons?domain=ifbaiano.edu.br&sz=128"
   },
   {
     "nome": "USP - Universidade de São Paulo",
-    "cidade": "São Paulo - SP",
-    "infraestrutura": "Cidade Universitária com ampla área verde e centros de pesquisa avançados.",
-    "cursos": "Direito, Administração, Arquitetura, Astronomia.",
-    "foto": "usp_logo"
+    "cidade": "São Paulo/SP",
+    "infraestrutura": "Maior centro de pesquisa do país, hospitais universitários e museus.",
+    "cursos": "Astronomia, Relações Internacionais, Engenharia Naval",
+    "foto": "https://www.google.com/s2/favicons?domain=usp.br&sz=128"
+  },
+  {
+    "nome": "UNICAMP - Universidade Estadual de Campinas",
+    "cidade": "Campinas/SP",
+    "infraestrutura": "Referência nacional em inovação tecnológica.",
+    "cursos": "Engenharia da Computação, Física, Medicina",
+    "foto": "https://www.google.com/s2/favicons?domain=unicamp.br&sz=128"
+  },
+  {
+    "nome": "UNESP - Universidade Estadual Paulista",
+    "cidade": "Vários Campi/SP",
+    "infraestrutura": "Ampla rede de campi pelo interior paulista.",
+    "cursos": "Veterinária, Agronomia, Medicina, Jornalismo",
+    "foto": "https://www.google.com/s2/favicons?domain=unesp.br&sz=128"
+  },
+  {
+    "nome": "UERJ - Universidade do Estado do Rio de Janeiro",
+    "cidade": "Rio de Janeiro/RJ",
+    "infraestrutura": "Campus icônico e forte tradição em direito.",
+    "cursos": "Direito, Medicina, Engenharia, Economia",
+    "foto": "https://www.google.com/s2/favicons?domain=uerj.br&sz=128"
+  },
+  {
+    "nome": "UECE - Universidade Estadual do Ceará",
+    "cidade": "Fortaleza/CE",
+    "infraestrutura": "Campus amplo, referência em formação de professores e saúde.",
+    "cursos": "Veterinária, Nutrição, Letras, Pedagogia",
+    "foto": "https://www.google.com/s2/favicons?domain=uece.br&sz=128"
+  },
+  {
+    "nome": "UEL - Universidade Estadual de Londrina",
+    "cidade": "Londrina/PR",
+    "infraestrutura": "Forte tradição em ciências agrárias e saúde.",
+    "cursos": "Agronomia, Medicina, Direito",
+    "foto": "https://www.google.com/s2/favicons?domain=uel.br&sz=128"
+  },
+  {
+    "nome": "UEM - Universidade Estadual de Maringá",
+    "cidade": "Maringá/PR",
+    "infraestrutura": "Referência regional em pesquisa aplicada.",
+    "cursos": "Agronomia, Odontologia, Engenharia Civil",
+    "foto": "https://www.google.com/s2/favicons?domain=uem.br&sz=128"
+  },
+  {
+    "nome": "UEPG - Universidade Estadual de Ponta Grossa",
+    "cidade": "Ponta Grossa/PR",
+    "infraestrutura": "Forte atuação em ciências agrárias.",
+    "cursos": "Agronomia, Medicina Veterinária, Direito",
+    "foto": "https://www.google.com/s2/favicons?domain=uepg.br&sz=128"
+  },
+  {
+    "nome": "UDESC - Universidade do Estado de Santa Catarina",
+    "cidade": "Florianópolis/SC",
+    "infraestrutura": "Rede de centros distribuídos pelo estado.",
+    "cursos": "Educação Física, Design, Zootecnia",
+    "foto": "https://www.google.com/s2/favicons?domain=udesc.br&sz=128"
+  },
+  {
+    "nome": "UEMS - Universidade Estadual de Mato Grosso do Sul",
+    "cidade": "Vários Campi/MS",
+    "infraestrutura": "Foco em formação regionalizada.",
+    "cursos": "Pedagogia, Agronomia, Enfermagem",
+    "foto": "https://www.google.com/s2/favicons?domain=uems.br&sz=128"
+  },
+  {
+    "nome": "UEPB - Universidade Estadual da Paraíba",
+    "cidade": "Campina Grande/PB",
+    "infraestrutura": "Forte atuação em licenciaturas.",
+    "cursos": "Pedagogia, Enfermagem, Direito",
+    "foto": "https://www.google.com/s2/favicons?domain=uepb.edu.br&sz=128"
+  },
+  {
+    "nome": "UESB - Universidade Estadual do Sudoeste da Bahia",
+    "cidade": "Vitória da Conquista/BA",
+    "infraestrutura": "Rede de campi no interior baiano.",
+    "cursos": "Agronomia, Medicina, Enfermagem",
+    "foto": "https://www.google.com/s2/favicons?domain=uesb.br&sz=128"
+  },
+  {
+    "nome": "UESC - Universidade Estadual de Santa Cruz",
+    "cidade": "Ilhéus/BA",
+    "infraestrutura": "Forte pesquisa em biodiversidade e cacau.",
+    "cursos": "Agronomia, Biologia, Direito",
+    "foto": "https://www.google.com/s2/favicons?domain=uesc.br&sz=128"
+  },
+  {
+    "nome": "UEA - Universidade do Estado do Amazonas",
+    "cidade": "Manaus/AM",
+    "infraestrutura": "Atuação em toda a região amazônica.",
+    "cursos": "Engenharia, Medicina, Direito",
+    "foto": "https://www.google.com/s2/favicons?domain=uea.edu.br&sz=128"
+  },
+  {
+    "nome": "UEG - Universidade Estadual de Goiás",
+    "cidade": "Vários Campi/GO",
+    "infraestrutura": "Rede capilarizada no interior de Goiás.",
+    "cursos": "Pedagogia, Agronomia, Direito",
+    "foto": "https://www.google.com/s2/favicons?domain=ueg.br&sz=128"
+  },
+  {
+    "nome": "UEMA - Universidade Estadual do Maranhão",
+    "cidade": "São Luís/MA",
+    "infraestrutura": "Principal universidade estadual do Maranhão.",
+    "cursos": "Agronomia, Direito, Enfermagem",
+    "foto": "https://www.google.com/s2/favicons?domain=uema.br&sz=128"
+  },
+  {
+    "nome": "UPE - Universidade de Pernambuco",
+    "cidade": "Vários Campi/PE",
+    "infraestrutura": "Forte tradição em saúde e engenharia.",
+    "cursos": "Medicina, Odontologia, Engenharia da Computação",
+    "foto": "https://www.google.com/s2/favicons?domain=upe.br&sz=128"
+  },
+  {
+    "nome": "UNEB - Universidade do Estado da Bahia",
+    "cidade": "Salvador/BA",
+    "infraestrutura": "Maior rede estadual multicampi do país.",
+    "cursos": "Pedagogia, Direito, Administração",
+    "foto": "https://www.google.com/s2/favicons?domain=uneb.br&sz=128"
+  },
+  {
+    "nome": "UNIMONTES - Universidade Estadual de Montes Claros",
+    "cidade": "Montes Claros/MG",
+    "infraestrutura": "Referência no norte de Minas Gerais.",
+    "cursos": "Medicina, Agronomia, Direito",
+    "foto": "https://www.google.com/s2/favicons?domain=unimontes.br&sz=128"
+  },
+  {
+    "nome": "UEFS - Universidade Estadual de Feira de Santana",
+    "cidade": "Feira de Santana/BA",
+    "infraestrutura": "Forte pesquisa em ciências agrárias e saúde.",
+    "cursos": "Agronomia, Medicina, Enfermagem",
+    "foto": "https://www.google.com/s2/favicons?domain=uefs.br&sz=128"
+  },
+  {
+    "nome": "UPF - Universidade de Passo Fundo",
+    "cidade": "Passo Fundo/RS",
+    "infraestrutura": "Tradição regional no norte gaúcho.",
+    "cursos": "Agronomia, Medicina, Direito",
+    "foto": "https://www.google.com/s2/favicons?domain=upf.br&sz=128"
+  },
+  {
+    "nome": "PUC-Rio - Pontifícia Universidade Católica do Rio de Janeiro",
+    "cidade": "Rio de Janeiro/RJ",
+    "infraestrutura": "Campus arborizado na Gávea, forte em pesquisa aplicada.",
+    "cursos": "Engenharia, Informática, Design, Relações Internacionais",
+    "foto": "https://www.google.com/s2/favicons?domain=puc-rio.br&sz=128"
+  },
+  {
+    "nome": "PUC-SP - Pontifícia Universidade Católica de São Paulo",
+    "cidade": "São Paulo/SP",
+    "infraestrutura": "Tradição em ciências humanas e sociais.",
+    "cursos": "Psicologia, Direito, Ciências Sociais",
+    "foto": "https://www.google.com/s2/favicons?domain=pucsp.br&sz=128"
+  },
+  {
+    "nome": "PUC Minas - Pontifícia Universidade Católica de Minas Gerais",
+    "cidade": "Belo Horizonte/MG",
+    "infraestrutura": "Múltiplos campi na Grande BH.",
+    "cursos": "Direito, Medicina, Administração",
+    "foto": "https://www.google.com/s2/favicons?domain=pucminas.br&sz=128"
+  },
+  {
+    "nome": "PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul",
+    "cidade": "Porto Alegre/RS",
+    "infraestrutura": "Parque tecnológico integrado ao campus.",
+    "cursos": "Medicina, Direito, Engenharia de Software",
+    "foto": "https://www.google.com/s2/favicons?domain=pucrs.br&sz=128"
+  },
+  {
+    "nome": "PUCPR - Pontifícia Universidade Católica do Paraná",
+    "cidade": "Curitiba/PR",
+    "infraestrutura": "Estrutura moderna com forte inovação.",
+    "cursos": "Engenharia, Medicina, Arquitetura",
+    "foto": "https://www.google.com/s2/favicons?domain=pucpr.br&sz=128"
+  },
+  {
+    "nome": "PUC-Campinas - Pontifícia Universidade Católica de Campinas",
+    "cidade": "Campinas/SP",
+    "infraestrutura": "Tradição regional no interior paulista.",
+    "cursos": "Medicina, Direito, Odontologia",
+    "foto": "https://www.google.com/s2/favicons?domain=puc-campinas.edu.br&sz=128"
+  },
+  {
+    "nome": "PUC Goiás - Pontifícia Universidade Católica de Goiás",
+    "cidade": "Goiânia/GO",
+    "infraestrutura": "Principal universidade privada do Centro-Oeste.",
+    "cursos": "Direito, Medicina, Engenharia Civil",
+    "foto": "https://www.google.com/s2/favicons?domain=pucgoias.edu.br&sz=128"
+  },
+  {
+    "nome": "Mackenzie - Universidade Presbiteriana Mackenzie",
+    "cidade": "São Paulo/SP",
+    "infraestrutura": "Campus histórico no centro de São Paulo.",
+    "cursos": "Arquitetura, Engenharia, Direito",
+    "foto": "https://www.google.com/s2/favicons?domain=mackenzie.br&sz=128"
+  },
+  {
+    "nome": "FGV - Fundação Getulio Vargas",
+    "cidade": "São Paulo/RJ",
+    "infraestrutura": "Referência nacional em economia e administração pública.",
+    "cursos": "Administração, Economia, Direito",
+    "foto": "https://www.google.com/s2/favicons?domain=fgv.br&sz=128"
+  },
+  {
+    "nome": "Insper - Instituto de Ensino e Pesquisa",
+    "cidade": "São Paulo/SP",
+    "infraestrutura": "Foco em negócios, economia e engenharia de alto padrão.",
+    "cursos": "Administração, Economia, Engenharia",
+    "foto": "https://www.google.com/s2/favicons?domain=insper.edu.br&sz=128"
+  },
+  {
+    "nome": "Unifor - Universidade de Fortaleza",
+    "cidade": "Fortaleza/CE",
+    "infraestrutura": "Principal universidade privada do Ceará.",
+    "cursos": "Medicina, Direito, Engenharia de Software",
+    "foto": "https://www.google.com/s2/favicons?domain=unifor.br&sz=128"
+  },
+  {
+    "nome": "Uniceub - Centro Universitário de Brasília",
+    "cidade": "Brasília/DF",
+    "infraestrutura": "Forte presença na capital federal.",
+    "cursos": "Direito, Relações Internacionais, Medicina",
+    "foto": "https://www.google.com/s2/favicons?domain=uniceub.br&sz=128"
+  },
+  {
+    "nome": "Unicesumar - Centro Universitário Cesumar",
+    "cidade": "Maringá/PR",
+    "infraestrutura": "Ampla oferta de cursos EAD e presenciais.",
+    "cursos": "Medicina, Farmácia, Educação Física",
+    "foto": "https://www.google.com/s2/favicons?domain=unicesumar.edu.br&sz=128"
+  },
+  {
+    "nome": "Anhembi Morumbi - Universidade Anhembi Morumbi",
+    "cidade": "São Paulo/SP",
+    "infraestrutura": "Forte em cursos de gastronomia, moda e comunicação.",
+    "cursos": "Gastronomia, Design de Moda, Publicidade",
+    "foto": "https://www.google.com/s2/favicons?domain=anhembi.br&sz=128"
+  },
+  {
+    "nome": "Universidade Positivo",
+    "cidade": "Curitiba/PR",
+    "infraestrutura": "Campus moderno com forte estrutura tecnológica.",
+    "cursos": "Medicina, Direito, Engenharia",
+    "foto": "https://www.google.com/s2/favicons?domain=up.edu.br&sz=128"
+  },
+  {
+    "nome": "Estácio",
+    "cidade": "Vários Campi/Brasil",
+    "infraestrutura": "Maior rede de ensino superior privado do país.",
+    "cursos": "Direito, Administração, Enfermagem",
+    "foto": "https://www.google.com/s2/favicons?domain=estacio.br&sz=128"
+  },
+  {
+    "nome": "UNIT - Universidade Tiradentes",
+    "cidade": "Aracaju/SE",
+    "infraestrutura": "Principal universidade privada de Sergipe.",
+    "cursos": "Medicina, Direito, Engenharia Civil",
+    "foto": "https://www.google.com/s2/favicons?domain=unit.br&sz=128"
+  },
+  {
+    "nome": "UNIFACS - Universidade Salvador",
+    "cidade": "Salvador/BA",
+    "infraestrutura": "Tradição em ensino privado na Bahia.",
+    "cursos": "Direito, Engenharia, Administração",
+    "foto": "https://www.google.com/s2/favicons?domain=unifacs.br&sz=128"
+  },
+  {
+    "nome": "UNISINOS - Universidade do Vale do Rio dos Sinos",
+    "cidade": "São Leopoldo/RS",
+    "infraestrutura": "Forte em inovação e parque tecnológico próprio.",
+    "cursos": "Direito, Engenharia, Design",
+    "foto": "https://www.google.com/s2/favicons?domain=unisinos.br&sz=128"
+  },
+  {
+    "nome": "UNIVALI - Universidade do Vale do Itajaí",
+    "cidade": "Itajaí/SC",
+    "infraestrutura": "Forte atuação em ciências do mar.",
+    "cursos": "Oceanografia, Direito, Medicina",
+    "foto": "https://www.google.com/s2/favicons?domain=univali.br&sz=128"
+  },
+  {
+    "nome": "FURB - Universidade Regional de Blumenau",
+    "cidade": "Blumenau/SC",
+    "infraestrutura": "Tradição têxtil e industrial na região.",
+    "cursos": "Engenharia Têxtil, Direito, Design",
+    "foto": "https://www.google.com/s2/favicons?domain=furb.br&sz=128"
+  },
+  {
+    "nome": "UCS - Universidade de Caxias do Sul",
+    "cidade": "Caxias do Sul/RS",
+    "infraestrutura": "Forte vínculo com o setor industrial da Serra Gaúcha.",
+    "cursos": "Engenharia Mecânica, Medicina, Direito",
+    "foto": "https://www.google.com/s2/favicons?domain=ucs.br&sz=128"
+  },
+  {
+    "nome": "UNIVATES - Centro Universitário Univates",
+    "cidade": "Lajeado/RS",
+    "infraestrutura": "Forte em inovação tecnológica regional.",
+    "cursos": "Engenharia, Biotecnologia, Direito",
+    "foto": "https://www.google.com/s2/favicons?domain=univates.br&sz=128"
+  },
+  {
+    "nome": "UNIOESTE - Universidade Estadual do Oeste do Paraná",
+    "cidade": "Cascavel/PR",
+    "infraestrutura": "Rede regional com forte área agrária.",
+    "cursos": "Agronomia, Medicina, Direito",
+    "foto": "https://www.google.com/s2/favicons?domain=unioeste.br&sz=128"
+  },
+  {
+    "nome": "UNIVASF - Universidade Federal do Vale do São Francisco",
+    "cidade": "Petrolina/PE",
+    "infraestrutura": "Forte pesquisa em fruticultura irrigada.",
+    "cursos": "Agronomia, Medicina Veterinária, Engenharia",
+    "foto": "https://www.google.com/s2/favicons?domain=univasf.edu.br&sz=128"
+  },
+  {
+    "nome": "UNIRIO - Universidade Federal do Estado do Rio de Janeiro",
+    "cidade": "Rio de Janeiro/RJ",
+    "infraestrutura": "Tradição em artes cênicas e saúde.",
+    "cursos": "Teatro, Enfermagem, Turismo",
+    "foto": "https://www.google.com/s2/favicons?domain=unirio.br&sz=128"
+  },
+  {
+    "nome": "Uninove - Universidade Nove de Julho",
+    "cidade": "São Paulo/SP",
+    "infraestrutura": "Grande rede de campi na Grande São Paulo.",
+    "cursos": "Administração, Direito, Engenharia",
+    "foto": "https://www.google.com/s2/favicons?domain=uninove.br&sz=128"
+  },
+  {
+    "nome": "UNIP - Universidade Paulista",
+    "cidade": "São Paulo/SP",
+    "infraestrutura": "Uma das maiores redes privadas do país.",
+    "cursos": "Medicina, Direito, Fisioterapia",
+    "foto": "https://www.google.com/s2/favicons?domain=unip.br&sz=128"
+  },
+  {
+    "nome": "Belas Artes de São Paulo",
+    "cidade": "São Paulo/SP",
+    "infraestrutura": "Tradição centenária em artes e design.",
+    "cursos": "Design, Artes Visuais, Cinema",
+    "foto": "https://www.google.com/s2/favicons?domain=belasartes.br&sz=128"
+  },
+  {
+    "nome": "IBMEC",
+    "cidade": "Vários Campi/Brasil",
+    "infraestrutura": "Forte foco em mercado financeiro e negócios.",
+    "cursos": "Economia, Administração, Direito",
+    "foto": "https://www.google.com/s2/favicons?domain=ibmec.br&sz=128"
+  },
+  {
+    "nome": "Harvard University",
+    "cidade": "Cambridge/EUA",
+    "infraestrutura": "Biblioteca de classe mundial, dotação bilionária para pesquisa.",
+    "cursos": "Business, Law, Medicine, Computer Science",
+    "foto": "https://www.google.com/s2/favicons?domain=harvard.edu&sz=128"
+  },
+  {
+    "nome": "MIT - Massachusetts Institute of Technology",
+    "cidade": "Cambridge/EUA",
+    "infraestrutura": "Líder global em inovação tecnológica e laboratórios de IA.",
+    "cursos": "Aerospace Engineering, Artificial Intelligence, Robotics",
+    "foto": "https://www.google.com/s2/favicons?domain=mit.edu&sz=128"
+  },
+  {
+    "nome": "Stanford University",
+    "cidade": "Stanford/EUA",
+    "infraestrutura": "Coração do Vale do Silício, forte ligação com startups.",
+    "cursos": "Computer Science, Business, Engineering",
+    "foto": "https://www.google.com/s2/favicons?domain=stanford.edu&sz=128"
+  },
+  {
+    "nome": "University of Oxford",
+    "cidade": "Oxford/Reino Unido",
+    "infraestrutura": "Campus histórico, sistema de tutoria individualizado.",
+    "cursos": "Philosophy, PPE, Classics, Archaeology",
+    "foto": "https://www.google.com/s2/favicons?domain=ox.ac.uk&sz=128"
+  },
+  {
+    "nome": "University of Cambridge",
+    "cidade": "Cambridge/Reino Unido",
+    "infraestrutura": "Sistema de colleges centenários e forte tradição científica.",
+    "cursos": "Mathematics, Natural Sciences, Law",
+    "foto": "https://www.google.com/s2/favicons?domain=cam.ac.uk&sz=128"
+  },
+  {
+    "nome": "Yale University",
+    "cidade": "New Haven/EUA",
+    "infraestrutura": "Forte tradição em direito e ciências humanas.",
+    "cursos": "Law, Political Science, Drama",
+    "foto": "https://www.google.com/s2/favicons?domain=yale.edu&sz=128"
+  },
+  {
+    "nome": "Princeton University",
+    "cidade": "Princeton/EUA",
+    "infraestrutura": "Campus histórico com forte pesquisa em física teórica.",
+    "cursos": "Physics, Economics, Public Policy",
+    "foto": "https://www.google.com/s2/favicons?domain=princeton.edu&sz=128"
+  },
+  {
+    "nome": "Columbia University",
+    "cidade": "Nova York/EUA",
+    "infraestrutura": "Localização central em Manhattan, forte em jornalismo.",
+    "cursos": "Journalism, Business, International Affairs",
+    "foto": "https://www.google.com/s2/favicons?domain=columbia.edu&sz=128"
+  },
+  {
+    "nome": "University of Chicago",
+    "cidade": "Chicago/EUA",
+    "infraestrutura": "Forte tradição em economia e ciências sociais.",
+    "cursos": "Economics, Sociology, Law",
+    "foto": "https://www.google.com/s2/favicons?domain=uchicago.edu&sz=128"
+  },
+  {
+    "nome": "Caltech - California Institute of Technology",
+    "cidade": "Pasadena/EUA",
+    "infraestrutura": "Pequena e altamente seletiva, ligada ao JPL da NASA.",
+    "cursos": "Physics, Aerospace Engineering, Chemistry",
+    "foto": "https://www.google.com/s2/favicons?domain=caltech.edu&sz=128"
+  },
+  {
+    "nome": "UC Berkeley - University of California, Berkeley",
+    "cidade": "Berkeley/EUA",
+    "infraestrutura": "Referência pública em pesquisa e engenharia.",
+    "cursos": "Computer Science, Engineering, Economics",
+    "foto": "https://www.google.com/s2/favicons?domain=berkeley.edu&sz=128"
+  },
+  {
+    "nome": "UCLA - University of California, Los Angeles",
+    "cidade": "Los Angeles/EUA",
+    "infraestrutura": "Forte em cinema, medicina e ciências.",
+    "cursos": "Film, Medicine, Psychology",
+    "foto": "https://www.google.com/s2/favicons?domain=ucla.edu&sz=128"
+  },
+  {
+    "nome": "Cornell University",
+    "cidade": "Ithaca/EUA",
+    "infraestrutura": "Campus extenso com forte área de agricultura e engenharia.",
+    "cursos": "Agriculture, Engineering, Hotel Administration",
+    "foto": "https://www.google.com/s2/favicons?domain=cornell.edu&sz=128"
+  },
+  {
+    "nome": "University of Pennsylvania",
+    "cidade": "Filadélfia/EUA",
+    "infraestrutura": "Sede da Wharton School, referência em negócios.",
+    "cursos": "Business, Medicine, Law",
+    "foto": "https://www.google.com/s2/favicons?domain=upenn.edu&sz=128"
+  },
+  {
+    "nome": "Johns Hopkins University",
+    "cidade": "Baltimore/EUA",
+    "infraestrutura": "Referência mundial em pesquisa médica.",
+    "cursos": "Medicine, Public Health, International Studies",
+    "foto": "https://www.google.com/s2/favicons?domain=jhu.edu&sz=128"
+  },
+  {
+    "nome": "University of Michigan",
+    "cidade": "Ann Arbor/EUA",
+    "infraestrutura": "Grande universidade pública com forte pesquisa.",
+    "cursos": "Engineering, Business, Medicine",
+    "foto": "https://www.google.com/s2/favicons?domain=umich.edu&sz=128"
+  },
+  {
+    "nome": "New York University",
+    "cidade": "Nova York/EUA",
+    "infraestrutura": "Campus urbano integrado à cidade de Nova York.",
+    "cursos": "Film, Business, Law",
+    "foto": "https://www.google.com/s2/favicons?domain=nyu.edu&sz=128"
+  },
+  {
+    "nome": "Duke University",
+    "cidade": "Durham/EUA",
+    "infraestrutura": "Forte tradição em basquete universitário e medicina.",
+    "cursos": "Medicine, Law, Public Policy",
+    "foto": "https://www.google.com/s2/favicons?domain=duke.edu&sz=128"
+  },
+  {
+    "nome": "Northwestern University",
+    "cidade": "Evanston/EUA",
+    "infraestrutura": "Referência em jornalismo e comunicação.",
+    "cursos": "Journalism, Business, Engineering",
+    "foto": "https://www.google.com/s2/favicons?domain=northwestern.edu&sz=128"
+  },
+  {
+    "nome": "Imperial College London",
+    "cidade": "Londres/Reino Unido",
+    "infraestrutura": "Foco em ciência, engenharia e medicina.",
+    "cursos": "Engineering, Medicine, Computing",
+    "foto": "https://www.google.com/s2/favicons?domain=imperial.ac.uk&sz=128"
+  },
+  {
+    "nome": "UCL - University College London",
+    "cidade": "Londres/Reino Unido",
+    "infraestrutura": "Uma das maiores universidades de pesquisa do Reino Unido.",
+    "cursos": "Architecture, Medicine, Law",
+    "foto": "https://www.google.com/s2/favicons?domain=ucl.ac.uk&sz=128"
+  },
+  {
+    "nome": "LSE - London School of Economics",
+    "cidade": "Londres/Reino Unido",
+    "infraestrutura": "Referência mundial em ciências sociais e economia.",
+    "cursos": "Economics, Political Science, Law",
+    "foto": "https://www.google.com/s2/favicons?domain=lse.ac.uk&sz=128"
+  },
+  {
+    "nome": "ETH Zurich",
+    "cidade": "Zurique/Suíça",
+    "infraestrutura": "Referência europeia em engenharia e ciências exatas.",
+    "cursos": "Engineering, Computer Science, Physics",
+    "foto": "https://www.google.com/s2/favicons?domain=ethz.ch&sz=128"
+  },
+  {
+    "nome": "EPFL - École Polytechnique Fédérale de Lausanne",
+    "cidade": "Lausanne/Suíça",
+    "infraestrutura": "Forte em inovação tecnológica e ciências aplicadas.",
+    "cursos": "Engineering, Computer Science, Architecture",
+    "foto": "https://www.google.com/s2/favicons?domain=epfl.ch&sz=128"
+  },
+  {
+    "nome": "University of Toronto",
+    "cidade": "Toronto/Canadá",
+    "infraestrutura": "Maior universidade de pesquisa do Canadá.",
+    "cursos": "Medicine, Engineering, Business",
+    "foto": "https://www.google.com/s2/favicons?domain=utoronto.ca&sz=128"
+  },
+  {
+    "nome": "McGill University",
+    "cidade": "Montreal/Canadá",
+    "infraestrutura": "Forte tradição em medicina e ciências.",
+    "cursos": "Medicine, Law, Engineering",
+    "foto": "https://www.google.com/s2/favicons?domain=mcgill.ca&sz=128"
+  },
+  {
+    "nome": "University of British Columbia",
+    "cidade": "Vancouver/Canadá",
+    "infraestrutura": "Campus à beira-mar com forte pesquisa ambiental.",
+    "cursos": "Forestry, Medicine, Business",
+    "foto": "https://www.google.com/s2/favicons?domain=ubc.ca&sz=128"
+  },
+  {
+    "nome": "Sorbonne Université",
+    "cidade": "Paris/França",
+    "infraestrutura": "Herdeira da tradição acadêmica da antiga Sorbonne.",
+    "cursos": "Sciences, Medicine, Humanities",
+    "foto": "https://www.google.com/s2/favicons?domain=sorbonne-universite.fr&sz=128"
+  },
+  {
+    "nome": "Sciences Po",
+    "cidade": "Paris/França",
+    "infraestrutura": "Referência em ciência política e relações internacionais.",
+    "cursos": "Political Science, International Relations, Law",
+    "foto": "https://www.google.com/s2/favicons?domain=sciencespo.fr&sz=128"
+  },
+  {
+    "nome": "Technical University of Munich",
+    "cidade": "Munique/Alemanha",
+    "infraestrutura": "Forte em engenharia e ciências aplicadas.",
+    "cursos": "Engineering, Computer Science, Medicine",
+    "foto": "https://www.google.com/s2/favicons?domain=tum.de&sz=128"
+  },
+  {
+    "nome": "Heidelberg University",
+    "cidade": "Heidelberg/Alemanha",
+    "infraestrutura": "Universidade mais antiga da Alemanha.",
+    "cursos": "Medicine, Law, Natural Sciences",
+    "foto": "https://www.google.com/s2/favicons?domain=uni-heidelberg.de&sz=128"
+  },
+  {
+    "nome": "LMU Munich",
+    "cidade": "Munique/Alemanha",
+    "infraestrutura": "Forte tradição em ciências humanas e naturais.",
+    "cursos": "Physics, Medicine, Law",
+    "foto": "https://www.google.com/s2/favicons?domain=lmu.de&sz=128"
+  },
+  {
+    "nome": "University of Tokyo",
+    "cidade": "Tóquio/Japão",
+    "infraestrutura": "Universidade mais prestigiada do Japão.",
+    "cursos": "Engineering, Law, Medicine",
+    "foto": "https://www.google.com/s2/favicons?domain=u-tokyo.ac.jp&sz=128"
+  },
+  {
+    "nome": "Kyoto University",
+    "cidade": "Kyoto/Japão",
+    "infraestrutura": "Forte tradição em pesquisa científica e prêmios Nobel.",
+    "cursos": "Physics, Chemistry, Medicine",
+    "foto": "https://www.google.com/s2/favicons?domain=kyoto-u.ac.jp&sz=128"
+  },
+  {
+    "nome": "Tsinghua University",
+    "cidade": "Pequim/China",
+    "infraestrutura": "Referência em engenharia e tecnologia na China.",
+    "cursos": "Engineering, Computer Science, Architecture",
+    "foto": "https://www.google.com/s2/favicons?domain=tsinghua.edu.cn&sz=128"
+  },
+  {
+    "nome": "Peking University",
+    "cidade": "Pequim/China",
+    "infraestrutura": "Uma das universidades mais tradicionais da China.",
+    "cursos": "Humanities, Law, Economics",
+    "foto": "https://www.google.com/s2/favicons?domain=pku.edu.cn&sz=128"
+  },
+  {
+    "nome": "National University of Singapore",
+    "cidade": "Singapura",
+    "infraestrutura": "Referência acadêmica no sudeste asiático.",
+    "cursos": "Business, Engineering, Computer Science",
+    "foto": "https://www.google.com/s2/favicons?domain=nus.edu.sg&sz=128"
+  },
+  {
+    "nome": "Nanyang Technological University",
+    "cidade": "Singapura",
+    "infraestrutura": "Forte em engenharia e ciências aplicadas.",
+    "cursos": "Engineering, Computer Science, Business",
+    "foto": "https://www.google.com/s2/favicons?domain=ntu.edu.sg&sz=128"
+  },
+  {
+    "nome": "University of Melbourne",
+    "cidade": "Melbourne/Austrália",
+    "infraestrutura": "Uma das universidades mais tradicionais da Austrália.",
+    "cursos": "Medicine, Law, Arts",
+    "foto": "https://www.google.com/s2/favicons?domain=unimelb.edu.au&sz=128"
+  },
+  {
+    "nome": "Australian National University",
+    "cidade": "Camberra/Austrália",
+    "infraestrutura": "Forte em ciências políticas e pesquisa pública.",
+    "cursos": "Political Science, Economics, Physics",
+    "foto": "https://www.google.com/s2/favicons?domain=anu.edu.au&sz=128"
+  },
+  {
+    "nome": "University of Sydney",
+    "cidade": "Sydney/Austrália",
+    "infraestrutura": "Campus histórico com forte pesquisa multidisciplinar.",
+    "cursos": "Medicine, Law, Engineering",
+    "foto": "https://www.google.com/s2/favicons?domain=sydney.edu.au&sz=128"
+  },
+  {
+    "nome": "University of Hong Kong",
+    "cidade": "Hong Kong",
+    "infraestrutura": "Referência acadêmica na Ásia com forte internacionalização.",
+    "cursos": "Business, Law, Medicine",
+    "foto": "https://www.google.com/s2/favicons?domain=hku.hk&sz=128"
+  },
+  {
+    "nome": "Seoul National University",
+    "cidade": "Seul/Coreia do Sul",
+    "infraestrutura": "Universidade mais prestigiada da Coreia do Sul.",
+    "cursos": "Engineering, Business, Medicine",
+    "foto": "https://www.google.com/s2/favicons?domain=snu.ac.kr&sz=128"
+  },
+  {
+    "nome": "KAIST - Korea Advanced Institute of Science and Technology",
+    "cidade": "Daejeon/Coreia do Sul",
+    "infraestrutura": "Referência em ciência e tecnologia aplicada.",
+    "cursos": "Engineering, Computer Science, Physics",
+    "foto": "https://www.google.com/s2/favicons?domain=kaist.ac.kr&sz=128"
+  },
+  {
+    "nome": "University of Amsterdam",
+    "cidade": "Amsterdã/Holanda",
+    "infraestrutura": "Forte tradição em ciências sociais e humanas.",
+    "cursos": "Social Sciences, Economics, Law",
+    "foto": "https://www.google.com/s2/favicons?domain=uva.nl&sz=128"
+  },
+  {
+    "nome": "Delft University of Technology",
+    "cidade": "Delft/Holanda",
+    "infraestrutura": "Referência europeia em engenharia.",
+    "cursos": "Engineering, Architecture, Computer Science",
+    "foto": "https://www.google.com/s2/favicons?domain=tudelft.nl&sz=128"
+  },
+  {
+    "nome": "KU Leuven",
+    "cidade": "Lovaina/Bélgica",
+    "infraestrutura": "Universidade mais antiga da Bélgica, forte em pesquisa.",
+    "cursos": "Medicine, Engineering, Theology",
+    "foto": "https://www.google.com/s2/favicons?domain=kuleuven.be&sz=128"
+  },
+  {
+    "nome": "University of Copenhagen",
+    "cidade": "Copenhague/Dinamarca",
+    "infraestrutura": "Forte tradição em ciências da saúde.",
+    "cursos": "Medicine, Natural Sciences, Law",
+    "foto": "https://www.google.com/s2/favicons?domain=ku.dk&sz=128"
+  },
+  {
+    "nome": "Karolinska Institute",
+    "cidade": "Estocolmo/Suécia",
+    "infraestrutura": "Referência mundial em medicina, entrega o Prêmio Nobel de Medicina.",
+    "cursos": "Medicine, Biomedicine, Public Health",
+    "foto": "https://www.google.com/s2/favicons?domain=ki.se&sz=128"
+  },
+  {
+    "nome": "University of Edinburgh",
+    "cidade": "Edimburgo/Escócia",
+    "infraestrutura": "Campus histórico com forte pesquisa em ciências e artes.",
+    "cursos": "Medicine, Informatics, Law",
+    "foto": "https://www.google.com/s2/favicons?domain=ed.ac.uk&sz=128"
+  },
+  {
+    "nome": "King's College London",
+    "cidade": "Londres/Reino Unido",
+    "infraestrutura": "Forte tradição em medicina e humanidades.",
+    "cursos": "Medicine, Law, War Studies",
+    "foto": "https://www.google.com/s2/favicons?domain=kcl.ac.uk&sz=128"
+  },
+  {
+    "nome": "Trinity College Dublin",
+    "cidade": "Dublin/Irlanda",
+    "infraestrutura": "Universidade mais antiga da Irlanda.",
+    "cursos": "Law, Medicine, Literature",
+    "foto": "https://www.google.com/s2/favicons?domain=tcd.ie&sz=128"
+  },
+  {
+    "nome": "Universidad de Buenos Aires",
+    "cidade": "Buenos Aires/Argentina",
+    "infraestrutura": "Maior universidade pública da Argentina.",
+    "cursos": "Medicine, Law, Economics",
+    "foto": "https://www.google.com/s2/favicons?domain=uba.ar&sz=128"
+  },
+  {
+    "nome": "UNAM - Universidad Nacional Autónoma de México",
+    "cidade": "Cidade do México/México",
+    "infraestrutura": "Maior universidade da América Latina.",
+    "cursos": "Medicine, Law, Engineering",
+    "foto": "https://www.google.com/s2/favicons?domain=unam.mx&sz=128"
+  },
+  {
+    "nome": "Pontificia Universidad Católica de Chile",
+    "cidade": "Santiago/Chile",
+    "infraestrutura": "Referência acadêmica no Chile.",
+    "cursos": "Engineering, Medicine, Architecture",
+    "foto": "https://www.google.com/s2/favicons?domain=uc.cl&sz=128"
+  },
+  {
+    "nome": "Universidad de Chile",
+    "cidade": "Santiago/Chile",
+    "infraestrutura": "Mais antiga e tradicional universidade do Chile.",
+    "cursos": "Law, Medicine, Engineering",
+    "foto": "https://www.google.com/s2/favicons?domain=uchile.cl&sz=128"
+  },
+  {
+    "nome": "Universidad Nacional de Colombia",
+    "cidade": "Bogotá/Colômbia",
+    "infraestrutura": "Principal universidade pública da Colômbia.",
+    "cursos": "Engineering, Medicine, Law",
+    "foto": "https://www.google.com/s2/favicons?domain=unal.edu.co&sz=128"
   }
 ]

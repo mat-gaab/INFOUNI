@@ -19,6 +19,10 @@
     <string name="label_genero">Gênero:</string>
     <string name="hint_email_login">E-mail</string>
     <string name="hint_senha_login">Senha</string>
+    <string name="title_detalhes">Detalhes da Universidade</string>
+    <string name="label_infraestrutura">Infraestrutura:</string>
+    <string name="label_cursos">Cursos Disponíveis:</string>
+    <string name="btn_voltar">VOLTAR</string>
 
     <string-array name="generos">
         <item>Selecione o Gênero</item>

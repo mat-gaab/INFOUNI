@@ -7,5 +7,5 @@ data class Universidade(
     val cidade: String,
     val infraestrutura: String,
     val cursos: String,
-    val foto: String // As imagens não foram adicionadas ainda
+    val foto: String // Conterá uma URL, ex: "https://site.com/foto.jpg"
 ) : Serializable
