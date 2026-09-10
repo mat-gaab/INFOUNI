@@ -6,6 +6,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
+
 class DetalhesActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,6 +23,18 @@ class DetalhesActivity : AppCompatActivity() {
             val infra = findViewById<TextView>(R.id.txtInfraDetalhe)
             val cursos = findViewById<TextView>(R.id.txtCursosDetalhe)
             val btnVoltar = findViewById<Button>(R.id.btnVoltar)
+
+            // Usa o Glide para carregar a URL na ImageView
+            val imgFoto = findViewById<ImageView>(R.id.imgFotoUni) // Localiza a imagem no XML
+            val urlFoto = uni.foto // Pega o link que está no objeto
+
+            // Comando do Glide para carregar a imagem da internet
+            com.bumptech.glide.Glide.with(this)
+                .load(urlFoto)
+                .placeholder(R.drawable.ic_launcher_foreground) // imagem temporária enquanto baixa
+                .error(R.drawable.default_uni)  // imagem caso o link esteja quebrado
+                .into(imgFoto)
+
 
             nome.text = uni.nome
             cidade.text = uni.cidade

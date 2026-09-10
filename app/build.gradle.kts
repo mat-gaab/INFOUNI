@@ -48,4 +48,7 @@ dependencies {
     implementation("com.google.firebase:firebase-ai")
     // Corrotinas para não travar a tela durante buscas
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
+
+    // Biblioteca para carregar imagens da web
+    implementation("com.github.bumptech.glide:glide:4.16.0")
 }

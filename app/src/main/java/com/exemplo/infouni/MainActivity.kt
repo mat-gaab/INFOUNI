@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        inicializarBaseDeDados()
         carregarDadosDoJson()
 
         // Recycler view
@@ -36,7 +37,7 @@ class MainActivity : AppCompatActivity() {
             filtrarUniversidades(termoBusca)
         }
 
-        // Botao "Sair": Redireciona para o Login
+        // Botao Sair: Redireciona para o Login
         val btnSair = findViewById<Button>(R.id.btnSair)
         btnSair.setOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)
@@ -52,10 +53,19 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    override fun onResume() {
+        super.onResume()
+        // Recarrega os dados
+        carregarDadosDoJson()
+        if (::adapter.isInitialized) {
+            adapter.filtrarLista(listaCompleta)
+        }
+    }
+
     private fun carregarDadosDoJson() {
         try {
-            // Abre o arquivo json
-            val jsonString = assets.open("universidades.json").bufferedReader().use { it.readText() }
+            val arquivo = getArquivoJsonInterno()
+            val jsonString = arquivo.readText()
 
             // Converte o texto em um Array Json
             val jsonArray = JSONArray(jsonString)
@@ -89,4 +99,19 @@ class MainActivity : AppCompatActivity() {
 
         adapter.filtrarLista(listaFiltrada)
     }
+
+    private fun getArquivoJsonInterno(): java.io.File {
+        return java.io.File(filesDir, "universidades_dinamico.json")
+    }
+
+    private fun inicializarBaseDeDados() {
+        val arquivo = getArquivoJsonInterno()
+
+        // Se o arquivo ainda não existe na memória interna, copia o original de assets
+        if (!arquivo.exists()) {
+            val jsonInicial = assets.open("universidades.json").bufferedReader().use { it.readText() }
+            arquivo.writeText(jsonInicial)
+        }
+    }
+
 }

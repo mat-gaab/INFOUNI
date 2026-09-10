@@ -17,6 +17,13 @@
             android:scaleType="centerInside"
             android:src="@drawable/ic_launcher_foreground" />
 
+        <ImageView
+            android:id="@+id/imgFotoUni"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_uni" />
+
         <TextView
             android:id="@+id/txtNomeDetalhe"
             android:layout_width="match_parent"
@@ -44,7 +51,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Infraestrutura:"
+            android:text="@string/label_infraestrutura"
             android:textColor="#333333"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -62,7 +69,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Cursos Disponíveis:"
+            android:text="@string/label_cursos"
             android:textColor="#333333"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -82,7 +89,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
             android:backgroundTint="#0D47A1"
-            android:text="VOLTAR"
+            android:text="@string/btn_voltar"
             android:textColor="#FFFFFF" />
 
     </LinearLayout>

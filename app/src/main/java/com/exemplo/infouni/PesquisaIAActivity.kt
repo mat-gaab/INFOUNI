@@ -66,16 +66,74 @@ class PesquisaIAActivity : AppCompatActivity() {
                 val textoResposta = response.text
 
                 if (!textoResposta.isNullOrEmpty()) {
-                    resultado.text = textoResposta
+                    resultado.text = textoResposta // Exibe na tela
+
+                    val objetoUni = extrairObjetoDaIA(textoResposta)
+                    if (objetoUni != null) {
+                        salvarNovaUniversidade(objetoUni)
+                        android.widget.Toast.makeText(this@PesquisaIAActivity, "Salvo na lista local!", android.widget.Toast.LENGTH_SHORT).show()
+                    }
+
                 } else {
                     resultado.text = "A IA não encontrou dados sobre esta instituição."
                 }
             } catch (e: Exception) {
-                // Tratamento de erro (falha de conexão)
                 resultado.text = "Erro ao conectar com a IA: ${e.message}"
             } finally {
                 pb.visibility = View.GONE
             }
         }
+
     }
+
+    private fun extrairObjetoDaIA(textoIA: String): Universidade? {
+        return try {
+            val linhas = textoIA.lines()
+            var nome = "Não informado"
+            var cidade = "Não informada"
+            var infra = "Não informada"
+            var cursos = "Não informados"
+
+            for (linha in linhas) {
+                when {
+                    linha.startsWith("NOME:", true) -> nome = linha.substringAfter(":").trim()
+                    linha.startsWith("CIDADE:", true) -> cidade = linha.substringAfter(":").trim()
+                    linha.startsWith("INFRAESTRUTURA:", true) -> infra = linha.substringAfter(":").trim()
+                    linha.startsWith("CURSOS:", true) -> cursos = linha.substringAfter(":").trim()
+                }
+            }
+            // Foto padrão para universidades novas pesquisadas pela web
+            Universidade(nome, cidade, infra, cursos, "default_uni")
+        } catch (e: Exception) { null }
+    }
+
+    private fun salvarNovaUniversidade(novaUni: Universidade) {
+        try {
+            val arquivo = java.io.File(filesDir, "universidades_dinamico.json")
+
+            // Garante que o arquivo exista
+            if (!arquivo.exists()) {
+                val jsonInicial = assets.open("universidades.json").bufferedReader().use { it.readText() }
+                arquivo.writeText(jsonInicial)
+            }
+
+            val jsonString = arquivo.readText()
+            val jsonArray = org.json.JSONArray(jsonString)
+
+            // Cria o novo objeto JSON
+            val novoObj = org.json.JSONObject().apply {
+                put("nome", novaUni.nome)
+                put("cidade", novaUni.cidade)
+                put("infraestrutura", novaUni.infraestrutura)
+                put("cursos", novaUni.cursos)
+                put("foto", novaUni.foto)
+            }
+
+            jsonArray.put(novoObj) // Adiciona à lista
+            arquivo.writeText(jsonArray.toString(4)) // Salva com recuo de 4 espaços (identado)
+        } catch (e: Exception) {
+            // Erro silencioso ou log para debug
+        }
+    }
+
 }
