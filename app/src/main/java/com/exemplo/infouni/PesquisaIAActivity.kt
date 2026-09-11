@@ -56,7 +56,7 @@ class PesquisaIAActivity : AppCompatActivity() {
             
             CURSOS: (todos os cursos disponíveis e duração média)
             
-            FOTO: (escreva apenas 'default_uni')
+            FOTO: (Busque e retorne apenas a URL direta do logo oficial desta universidade em alta resolução. Se não encontrar, retorne 'default_uni')
         """.trimIndent()
 
         // Corrotina
@@ -132,7 +132,6 @@ class PesquisaIAActivity : AppCompatActivity() {
             jsonArray.put(novoObj) // Adiciona à lista
             arquivo.writeText(jsonArray.toString(4)) // Salva com recuo de 4 espaços (identado)
         } catch (e: Exception) {
-            // Erro silencioso ou log para debug
         }
     }
 

@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.INFOUNI" parent="Base.Theme.INFOUNI" />
+
+    <!-- Estilo para imagens arredondadas -->
+    <style name="roundedImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
 </resources>

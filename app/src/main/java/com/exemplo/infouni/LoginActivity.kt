@@ -56,6 +56,10 @@ class LoginActivity : AppCompatActivity() {
                         for (userSnapshot in snapshot.children) {
                             val usuario = userSnapshot.getValue(Usuario::class.java)
                             if (usuario?.senha == pass) {
+                                // Salva o e-mail do usuário logado na sessão (SharedPreferences)
+                                val pref = getSharedPreferences("INFOUNI_PREFS", MODE_PRIVATE)
+                                pref.edit().putString("USER_EMAIL", email).apply()
+
                                 // Login Sucesso
                                 startActivity(Intent(this@LoginActivity, MainActivity::class.java))
                                 finish() // Fecha a tela de login

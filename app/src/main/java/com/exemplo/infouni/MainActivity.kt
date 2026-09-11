@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageButton
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -15,6 +16,7 @@ class MainActivity : AppCompatActivity() {
     // Referências para a lista e o adapter
     private lateinit var adapter: UniversidadeAdapter
     private var listaCompleta = mutableListOf<Universidade>()
+    private var apenasFavoritos = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -51,6 +53,29 @@ class MainActivity : AppCompatActivity() {
         btnIrParaIA.setOnClickListener {
             startActivity(Intent(this, PesquisaIAActivity::class.java))
         }
+
+        // BOTÃO FILTRAR FAVORITOS
+        val btnFavFilter = findViewById<ImageButton>(R.id.btnFiltrarFavoritos)
+        btnFavFilter.setOnClickListener {
+            apenasFavoritos = !apenasFavoritos
+            
+            if (apenasFavoritos) {
+                btnFavFilter.setImageResource(R.drawable.ic_favorite)
+                filtrarFavoritos()
+            } else {
+                btnFavFilter.setImageResource(R.drawable.ic_favorite_border)
+                adapter.filtrarLista(listaCompleta)
+            }
+        }
+    }
+
+    private fun filtrarFavoritos() {
+        val pref = getSharedPreferences("INFOUNI_PREFS", MODE_PRIVATE)
+        val email = pref.getString("USER_EMAIL", "") ?: ""
+        val favoritos = pref.getStringSet("FAVS_$email", setOf()) ?: setOf()
+        
+        val listaFiltrada = listaCompleta.filter { favoritos.contains(it.nome) }
+        adapter.filtrarLista(listaFiltrada)
     }
 
     override fun onResume() {
@@ -58,7 +83,11 @@ class MainActivity : AppCompatActivity() {
         // Recarrega os dados
         carregarDadosDoJson()
         if (::adapter.isInitialized) {
-            adapter.filtrarLista(listaCompleta)
+            if (apenasFavoritos) {
+                filtrarFavoritos()
+            } else {
+                adapter.filtrarLista(listaCompleta)
+            }
         }
     }
 
